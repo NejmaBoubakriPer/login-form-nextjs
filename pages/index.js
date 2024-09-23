@@ -44,12 +44,12 @@ export default function Home() {
           <span>Or Connect With: </span>
           <div className={styles.socialFields}>
             <div className={`${styles.socialField} ${styles.twitter}`}>
-              <a href="/.auth/login/aad">
+              <a href="/.auth/login/aad?post_login_redirect_uri=/loggindin">
                 <i className="fab fa-twitter"></i> Log in with Microsoft Entra
               </a>
             </div>
             <div className={`${styles.socialField} ${styles.facebook}`}>
-              <a href="/.auth/login/google">
+              <a href="/.auth/login/google?post_login_redirect_uri=/loggindin">
                 <i className="fab fa-facebook-f"></i> Log in with Google
               </a>
             </div>
